@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_height">35dp</dimen>
+    <dimen name="insert_dimen">260dp</dimen>
+    <dimen name="images_margin_top">5dp</dimen>
+    <dimen name="margin_between_views">40dp</dimen>
+    <dimen name="margin_between_layouts">30dp</dimen>
+    <dimen name="calorie_text_size">30sp</dimen>
+    <dimen name="diff_between_views_transparent_linear_layout">25dp</dimen>
+    <dimen name="button_width">200dp</dimen>
+    <dimen name="child_layouts_margin">15dp</dimen>
+    <dimen name="left_margin_image_ML">25dp</dimen>
+    <dimen name="diff_views_ML">20dp</dimen>
+    <dimen name="diff_ll_ML">40dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

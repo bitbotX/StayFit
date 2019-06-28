@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ProfileFragment"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@drawable/profile_gradient"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/pro"
+                android:id="@+id/profile_user_image"
+                android:layout_marginTop="70dp"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:text="name"
+            android:id="@+id/profile_user_name"
+            android:layout_marginTop="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/child_layouts_margin">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/bir"
+                android:layout_marginStart="15dp"/>
+            <TextView
+                android:layout_width="@dimen/insert_dimen"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:gravity="center_horizontal"
+                android:id="@+id/profile_user_age"
+                android:textSize="30dp"
+                android:layout_marginStart="@dimen/margin_between_views"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/child_layouts_margin">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/profile_weight_image"
+                android:layout_marginStart="15dp"
+                />
+            <TextView
+                android:layout_width="@dimen/insert_dimen"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:textSize="30dp"
+                android:id="@+id/profile_user_weight"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/child_layouts_margin">
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/profile_height_image"
+                android:layout_marginStart="15dp"/>
+            <TextView
+                android:layout_width="@dimen/insert_dimen"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Height"
+                android:textSize="30dp"
+                android:id="@+id/profile_user_height"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/child_layouts_margin">
+            >
+            <ImageView android:layout_width="60dp" android:layout_height="60dp"
+                android:src="@drawable/profile_activity_image"
+                android:layout_marginStart="15dp"/>
+            <TextView
+                android:layout_width="@dimen/insert_dimen"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Daily Activity"
+                android:textSize="30dp"
+                android:layout_marginStart="40dp"
+                android:id="@+id/profile_daily_activity"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="@dimen/child_layouts_margin">>
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/medical"
+                android:layout_marginLeft="15dp"
+                tools:ignore="RtlHardcoded" />
+            <TextView
+                android:layout_width="@dimen/insert_dimen"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Medical Condition"
+                android:textSize="30dp"
+                android:id="@+id/profile_medical_condition"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

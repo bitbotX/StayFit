@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".AboutFragment"
+    android:background="@drawable/about_us_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/versionTV"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/app_version"
+        android:textSize="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/dev_TV"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/dev1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/dev2"
+        android:layout_gravity="center_horizontal"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/dev3"
+        android:layout_gravity="center_horizontal"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/dev4"
+        android:layout_gravity="center_horizontal"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/contact_TV"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+        <ImageView android:layout_width="30dp" android:layout_height="30dp"
+            android:src="@drawable/email_about"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="55dp"
+            />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="xxxxxxxxxx.gmail.com"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+        <ImageView android:layout_width="30dp" android:layout_height="30dp"
+            android:src="@drawable/phone"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="55dp"
+            />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="+ 91 xxxxxxxxxx"
+            android:layout_marginLeft="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>

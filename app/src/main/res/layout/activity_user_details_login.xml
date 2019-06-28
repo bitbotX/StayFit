@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetailsLogin"
+    android:orientation="vertical"
+    android:background="@drawable/login_gradient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/child_layouts_margin"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_height"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_marginTop="@dimen/images_margin_top"
+                    android:src="@drawable/user" />
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="@dimen/insert_dimen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_between_views"
+                    android:hint="@string/enter_name"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_layouts"
+                android:layout_marginLeft="@dimen/child_layouts_margin"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_height"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_marginTop="@dimen/images_margin_top"
+                    android:src="@drawable/gender" />
+
+                <Spinner
+                    android:id="@+id/gender_spinner"
+                    android:layout_width="@dimen/insert_dimen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_between_views"
+                    android:layout_marginTop="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_layouts"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/child_layouts_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_height"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_marginTop="@dimen/images_margin_top"
+                    android:src="@drawable/phone" />
+
+                <EditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="@dimen/insert_dimen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_between_views"
+                    android:hint="@string/user_phone_number"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_layouts"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/child_layouts_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_height"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_marginTop="@dimen/images_margin_top"
+                    android:src="@drawable/age" />
+
+                <EditText
+                    android:id="@+id/user_age"
+                    android:layout_width="@dimen/insert_dimen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_between_views"
+                    android:hint="@string/user_age"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_layouts"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/child_layouts_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_height"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_marginTop="@dimen/images_margin_top"
+                    android:src="@drawable/height" />
+
+                <EditText
+                    android:id="@+id/user_height"
+                    android:layout_width="@dimen/insert_dimen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_between_views"
+                    android:hint="@string/user_height"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_layouts"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/child_layouts_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_height"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_marginTop="@dimen/images_margin_top"
+                    android:src="@drawable/weight" />
+
+                <EditText
+                    android:id="@+id/user_weight"
+                    android:layout_width="@dimen/insert_dimen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_between_views"
+                    android:hint="@string/user_weight"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_layouts"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/child_layouts_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_height"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_marginTop="@dimen/images_margin_top"
+                    android:src="@drawable/location" />
+
+                <EditText
+                    android:id="@+id/user_location"
+                    android:layout_width="@dimen/insert_dimen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_between_views"
+                    android:hint="@string/user_address"
+                    android:inputType="textPostalAddress" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_layouts"
+                android:orientation="horizontal"
+                android:layout_marginStart="@dimen/child_layouts_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_height"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_marginTop="@dimen/images_margin_top"
+                    android:src="@drawable/health" />
+
+                <Spinner
+                    android:id="@+id/health_spinner"
+                    android:layout_width="@dimen/insert_dimen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_between_views"
+                    android:layout_marginTop="@dimen/images_margin_top" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_between_layouts"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/child_layouts_margin">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_height"
+                    android:layout_height="@dimen/icon_height"
+                    android:layout_marginTop="@dimen/images_margin_top"
+                    android:src="@drawable/activity" />
+
+                <Spinner
+                    android:id="@+id/activity_spinner"
+                    android:layout_width="@dimen/insert_dimen"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_between_views"
+                    android:layout_marginTop="@dimen/images_margin_top" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_between_layouts"
+                android:background="@drawable/button_level"
+                android:text="@string/submit_button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

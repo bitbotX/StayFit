@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dietapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DinnerMeals" />
+        <activity android:name=".LunchMeals" />
+        <activity android:name=".BreakfastMeals" />
+        <activity android:name=".CaloriesProportion" />
+        <activity android:name=".WaterIntakePerday" />
+        <activity android:name=".GoalsActivity" />
+        <activity
+            android:name=".NavigationHomeScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserDetailsLogin"
+            android:label="LogIn" />
+        <activity
+            android:name=".CaloriePerDay"
+            android:label="Calorie Intake" />
+        <activity android:name=".GenderSpinner" />
+        <activity android:name="MainLoginActivity"/>
+        <activity android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
